@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #009de6;
+    color: white;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.info-button {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.info-button.selected {
+    background-color: #0073e6;
+    color: white;
+}
+
+.action-buttons button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.action-buttons button:hover {
+    background-color: #005bb5;
+}
+
+.export-container {
+    margin-top: 20px;
+}
+
+#export-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#export-button:hover {
+    background-color: #218838;
+}
+
+
